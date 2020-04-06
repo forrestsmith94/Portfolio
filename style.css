@@ -1,4 +1,25 @@
 <!DOCTYPE css>
+body {
+    background-color: powderblue;
+  }
+  h1 {
+    color: #B37700;
+  }
+  p {
+    color: #fffff;
+  }
+nav {
+    background-color: #B37700; 
+    
+    
+}
+footer {
+    color: #fffff;   
+}
+
+div { 
+    color: #0000
+}
 
 
 </css>

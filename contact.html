@@ -1,14 +1,24 @@
 <!doctype html>
 <div class="container">
     <div style="text-align:center">
+
       <h2>Contact Us</h2>
+
+
       <p>Swing by for a cup of coffee, or leave us a message:</p>
     </div>
+
+    <!--Image-->
     <div class="row">
-      <div class="column">
-        <img src="assets/contact.jpg"> style="width:25%">
+      <div class="col-sm">
+          
+        <img src="assets/contact.jpg" width="500" height="800" float: left;> 
       </div>
-      <div class="column">
+
+
+      <!--Contact Form-->
+
+      <div class="col-sm">
         <form action="/action_page.php">
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -16,9 +26,11 @@
           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
           <label for="country">Country</label>
           <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
             <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+           
+           
           </select>
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
@@ -28,3 +40,20 @@
     </div>
   </div>
   </html>
+
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        One of three columns
+      </div>
+      <div class="col-sm">
+        One of three columns
+      </div>
+      <div class="col-sm">
+        One of three columns
+      </div>
+    </div>
+  </div>
