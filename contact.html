@@ -1,112 +1,174 @@
-<!doctype html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<!--Links live here-->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Forrest Smith Marketing and Web Development </title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="styles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
 </head>
 <body>
+  <nav class="grey darken-5" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="portfolio.html">View the Work</a></li>
+        <li><a href="contact.html">Get in Touch</a></li>
+      </ul>
 
-      <!--Navbar lives here-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Forrest Smith</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="contact.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Contact
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                <a class="dropdown-item" href="contact.html">Contact</a>
-                
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-
-
-
-
-     <title>Forrest Smith</title>
-
-
-
-    <!--Header Lives Here-->
-
-<div class="container">
-    <div style="text-align:center">
-
-    <h1> The Day Your Life Changes for the Better. </h1>
-      <h2>Contact Forrest</h2>
-
-
-      <p>Swing by for a cup of coffee, or leave a message a message:</p>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="HTML/contact.html">Get in Touch</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
+  </nav>
 
-    <!--Image-->
-    <div class=".col-6 .col-md-4"><img src="contact.jpg" width="500" height="800" float: left;></img src></div>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center white-text text-lighten-2">Forrest Smith</h1>
+        <div class="row center">
+          <h5 class="header white-text text-lighten-2 col s12 light">Schedule a coffee date (or a Zoom meeting) </h5>
+        </div>
+       
+        <br><br>
 
-          
-
-    <!--Contact Form-->
-
-    <div class="col-6 col-md-4">
-         <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="usa">USA</option>
-            <option value="canada">Canada</option>
-            <option value="australia">Australia</option>
-           
-           
-          </select>
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-          <input type="submit" value="Submit">
-        </form>
       </div>
     </div>
+    <div class="parallax"><img with= 600 src="coffee.jpg" alt="pexels background img 1"></div>
   </div>
 
 
+  <div class="container">
+    <div class="section">
 
-  <!--Social Media Links-->
-  <div class="col-6 col-md-4">
-    <H2>Check Forrest Out</H2>
-    <ul>
-        <li><a href="https://www.linkedin.com/in/forrest-smith-2a442962/">LinkedIn</a></li>
-        <li><a href="instagram.com/forrestsmithmarketing">Instagram</a></li>
-        <li><a href="https://www.facebook.com/Forrest-V-Smith-100474911528627/">Facebook</a></li>
-    </ul>
+      <!--   Contact HTML   -->
+      <div class="row">
+        <div class="col s12 center"></div>
+    
+          
+            <div class="container"></div>
+              <form action="action_page.php">
+            
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <div class="row center">
+                  <a href="#" id="download-button" class="btn-large waves-effect waves-light pink lighten-3">Contact</a>
+                </div>
+            
+              </form>
+            </div>
 
+            <!-- Contact Form CSS-->
+<style>
+            /* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+</style>      
+          </div>
+        </div>
+      </div>
+
+    </div>
   </div>
-  
-</body>
-  </html>
 
 
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header center col s12 light white-text">Concept to campaign brand development. </h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="orange.jpg" alt="Pexels orange img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Brand Strategy</h4>
+          <p class="left-align light">Your brand strategy defines what you stand for, a promise you make, and the personality you convey. And while it includes your logo, color palette and slogan, those are only creative elements that convey your brand. Instead, your brand lives in every day-to-day interaction you have with your market. Forrest can help you with every step of the process- from your messaging strategy, to brand imagery, to developing your brand equity.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+ 
+
+  <footer class="page-footer gray lighten-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Forrest's Bio</h5>
+          <p class="grey-text text-lighten-4">A Colorado Native, Forrest enjoys hiking, her dog, and food! Having spent 7 years working in marketing and advertising in the real estate industry, Forrest is studying full stack development and is completing her degree in communications. </p>
+
+
+        </div>
+        <div class="col l3 s12">
+          
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="https://www.linkedin.com/in/forrest-smith-2a442962/">LinkedIn</a></li>
+            <li><a class="white-text" href=forrest.smith.marketing@gmail.com>Email</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="materialize.js"></script>
+  <script src="init.js"></script>
+  <script type="text/javascript" src="materialize.min.js"></script>"
+
+  </body>
+</html>
